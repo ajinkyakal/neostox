@@ -30,10 +30,12 @@ public class NeoStoxTestClass {
 		 String expectedusername=mysheet.getRow(0).getCell(2).getStringCellValue();
 		 
 		 Thread.sleep(500);
+		 
 
 		 //hhomepage
 		 NeoStoxHomePage home=new NeoStoxHomePage(driver);
 		 home.clickonsignInButton();
+		 
 		 
 		 Thread.sleep(1000);
 		 //signinpage
