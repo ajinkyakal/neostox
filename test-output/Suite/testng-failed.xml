@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="serialrun1(failed)">
+    <classes>
+      <class name="serialparallel.facebook">
+        <methods>
+          <include name="w3school"/>
+        </methods>
+      </class> <!-- serialparallel.facebook -->
+    </classes>
+  </test> <!-- serialrun1(failed) -->
+  <test thread-count="5" name="serialrun2(failed)">
+    <classes>
+      <class name="serialparallel.google">
+        <methods>
+          <include name="w3school"/>
+        </methods>
+      </class> <!-- serialparallel.google -->
+    </classes>
+  </test> <!-- serialrun2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
