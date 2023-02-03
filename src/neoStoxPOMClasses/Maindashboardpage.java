@@ -44,6 +44,11 @@ public class Maindashboardpage
 	{
 		actualusername.click();
 		logOutButton.click();
+		
+		
+		
+		System.out.println();
+		
 	}
 
 }
